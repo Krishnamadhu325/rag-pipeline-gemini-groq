@@ -1,30 +1,31 @@
 # Generative AI – RAG Pipeline Implementation
 
-This repository contains a guided implementation of a Retrieval-Augmented Generation (RAG) pipeline
-completed during a Microsoft Generative AI training program.
+This repository contains guided implementations of Retrieval-Augmented Generation (RAG) concepts completed during a Microsoft Generative AI training program.
 
 ## Overview
-The project demonstrates how to answer user queries using external documents by combining
-vector databases and large language models.
+The notebooks demonstrate how to build and experiment with LLM-based applications and RAG workflows using document embeddings and vector databases to answer queries based on external documents.
 
-## Key Features
-- Document embedding using Google Gemini Embeddings
-- Vector storage using ChromaDB
-- Semantic retrieval based on similarity search
-- Context-aware answer generation using Groq LLM
-- Source-aware responses for improved reliability
+## Notebooks
+All Colab notebooks from Day 1 through Day 5 are included:
 
-## Technologies Used
-- Python
-- LangChain
-- Google Gemini Embeddings
-- ChromaDB
-- Groq LLM
-- Google Colab
+- **Day 1:** Fundamentals of LLMs and Generative AI  
+- **Day 2:** Chatbots using Gemini & Groq APIs  
+- **Day 3:** Retrieval concepts and NotebookLM  
+- **Day 4:** Text preprocessing, chunking, and vector database setup  
+- **Day 5:** End-to-end RAG pipeline with embeddings and query retrieval
+
+## Project Highlights
+- Document embedding using **Google Gemini Embeddings**
+- Vector storage using **ChromaDB**
+- Semantic retrieval with similarity-based retrievers
+- Context-aware generation using **Groq LLM**
+- Source document attribution for responses
 
 ## Sample Documents
-- `sample_documents/` – Example PDFs used for demonstrating document-based question answering in the RAG pipeline
+The `sample_documents/` folder contains example PDFs used to demonstrate RAG workflows.
 
-## Note
-This project was developed as a guided hands-on exercise during training to gain practical
-experience with modern Generative AI pipelines.
+## Technologies Used
+Python · Google Colab · LangChain utils · Gemini Embeddings · ChromaDB · Groq LLM
+
+## Notes
+This project was developed as part of a **guided training program** to gain hands-on experience with modern Generative AI pipelines.
