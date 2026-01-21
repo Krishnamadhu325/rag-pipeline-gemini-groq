@@ -22,6 +22,9 @@ vector databases and large language models.
 - Groq LLM
 - Google Colab
 
+## Sample Documents
+- `sample_documents/` – Example PDFs used for demonstrating document-based question answering in the RAG pipeline
+
 ## Note
 This project was developed as a guided hands-on exercise during training to gain practical
 experience with modern Generative AI pipelines.
